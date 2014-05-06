@@ -101,7 +101,7 @@ class PhpUnderControl_Example2_Math{
         }
 
         $v8 = $v7;
-        foreach ( $d as $x ){
+        /*foreach ( $d as $x ){
             $v8 *= $x;
         }
         
@@ -128,7 +128,7 @@ class PhpUnderControl_Example2_Math{
         foreach ( $d as $x ){
             $v8 *= $x;
         }
-
+*/
         return $v8;
     }
 
@@ -156,7 +156,7 @@ class PhpUnderControl_Example2_Math{
         }
 
         $v8 = $v7;
-        foreach ( $d as $x ){
+        /*foreach ( $d as $x ){
             $v8 *= $x;
         }
         
@@ -183,7 +183,7 @@ class PhpUnderControl_Example2_Math{
         foreach ( $d as $x ){
             $v8 *= $x;
         }
-
+*/
         return $v8;
     }
 }
