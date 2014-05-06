@@ -55,8 +55,7 @@ function add($v1 , $v2){
  * @version   Release: 0.5.0
  * @link      http://www.phpundercontrol.org/
  */
-class PhpUnderControl_Example_Math
-{
+class PhpUnderControl_Example_Math{
     /**
      * Adds the two given values.
      *

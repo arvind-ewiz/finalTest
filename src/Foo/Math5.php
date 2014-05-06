@@ -52,8 +52,7 @@
  * @version   Release: 0.5.0
  * @link      http://www.phpundercontrol.org/
  */
-class PhpUnderControl_Example2_Math
-{
+class PhpUnderControl_Example2_Math{
     /**
      * Adds the two given values.
      *
