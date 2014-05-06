@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <file name="Math.php">
+    <totals>
+      <lines total="214" comments="74" code="140" executable="85" executed="2" percent="2.35%"/>
+      <methods count="4" tested="2" percent="50.00%"/>
+      <functions count="1" tested="0" percent="0.00%"/>
+      <classes count="1" tested="0" percent="0.00%"/>
+      <traits count="0" tested="0" percent=""/>
+    </totals>
+    <class name="PhpUnderControl_Example_Math" start="59" executable="84" executed="2" crap="559.83">
+      <package full="Example" name="Example" sub="" category=""/>
+      <namespace name=""/>
+      <method name="add" signature="add($v1 , $v2)" start="69" end="72" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="sub" signature="sub($v1, $v2)" start="82" end="85" crap="1" executable="1" executed="1" coverage="100"/>
+      <method name="div" signature="div($v1, $v2)" start="90" end="149" crap="132" executable="41" executed="0" coverage="0"/>
+      <method name="complex" signature="complex($v1, $v2)" start="154" end="213" crap="132" executable="41" executed="0" coverage="0"/>
+    </class>
+    <function name="add" signature="add($v1 , $v2)" start="44" crap="0" executable="1" executed="0" coverage="0"/>
+    <coverage>
+      <line nr="71">
+        <covered by="PhpUnderControl_Example_MathTest::testAddSuccess"/>
+      </line>
+      <line nr="84">
+        <covered by="PhpUnderControl_Example_MathTest::testSubSuccess"/>
+        <covered by="PhpUnderControl_Example_MathTest::testSubFail"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #0"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #1"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #2"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #3"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #0"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #1"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #2"/>
+        <covered by="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #3"/>
+      </line>
+    </coverage>
+  </file>
+</phpunit>

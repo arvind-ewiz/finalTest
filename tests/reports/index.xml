@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<phpunit xmlns="http://schema.phpunit.de/coverage/1.0">
+  <project name="C:\Users\User\Documents\GitHub\finalTest\src">
+    <tests>
+      <test name="PhpUnderControl_Example_MathTest::testAddSuccess" result="0" status="PASSED"/>
+      <test name="PhpUnderControl_Example_MathTest::testSubSuccess" result="0" status="PASSED"/>
+      <test name="PhpUnderControl_Example_MathTest::testSubFail" result="3" status="FAILURE"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #0" result="0" status="PASSED"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #1" result="0" status="PASSED"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #2" result="3" status="FAILURE"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderOneWillFail with data set #3" result="0" status="PASSED"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #0" result="3" status="FAILURE"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #1" result="3" status="FAILURE"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #2" result="3" status="FAILURE"/>
+      <test name="PhpUnderControl_Example_MathTest::testDataProviderAllWillFail with data set #3" result="3" status="FAILURE"/>
+    </tests>
+    <directory name="C:\Users\User\Documents\GitHub\finalTest\src">
+      <totals>
+        <lines total="214" comments="74" code="140" executable="85" executed="2" percent="2.35%"/>
+        <methods count="4" tested="2" percent="50.00%"/>
+        <functions count="1" tested="0" percent="0.00%"/>
+        <classes count="1" tested="0" percent="0.00%"/>
+        <traits count="0" tested="0" percent=""/>
+      </totals>
+      <file name="Math.php" href="Math.php.xml">
+        <totals>
+          <lines total="214" comments="74" code="140" executable="85" executed="2" percent="2.35%"/>
+          <methods count="4" tested="2" percent="50.00%"/>
+          <functions count="1" tested="0" percent="0.00%"/>
+          <classes count="1" tested="0" percent="0.00%"/>
+          <traits count="0" tested="0" percent=""/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>
